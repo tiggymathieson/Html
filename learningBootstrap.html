@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<style>
+
+    .jumbotron {
+    background-color: #ff5420; /* Orange */
+    color: #ffffff;
+    padding: 100px 25px;
+
+    }
+    body {
+    font-family: sans-serif;
+    font-size: 20px;
+    }
+    .special {
+    font-family: sans-serif;
+    font-style: oblique;
+    }
+    .bg-grey {
+    background-color: #f6f6f6;
+    }
+    .container-fluid {
+    padding: 60px 50px;
+    }
+    .logo {
+    font-size: 200px;
+    }
+    @media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    }
+    h2 {
+    font-size: 50px;
+    }
+    .logo-small {
+  color: #f4511e;
+  font-size: 50px;
+    }
+    .thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+  transition: box-shadow 0.5s;
+}
+.thumbnail:hover {
+  box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #f4511e;
+}
+
+.carousel-indicators li {
+  border-color: #f4511e;
+}
+
+.carousel-indicators li.active {
+  background-color: #f4511e;
+}
+
+.item h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  font-weight: 400;
+  font-style: italic;
+  margin: 70px 0;
+}
+
+.item span {
+  font-style: normal;
+}
+
+</style>
+<body>
+<!-- jumbotron -->
+    <div class="jumbotron text-center">
+        <h1 style="font-size: 80px;">Company</h1>
+        <p>We specialize in blablabla</p>
+        <form class="form-inline">
+            <div class="input-group">
+                <input type="email" class="form-control"  size="50" placeholder="Email Address" required>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-danger special">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </div>
+<!-- unequal collums -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2> About the Company</h2>
+                <h4> Stuff..</h4>
+                <p> More Stuff</p>
+                <button class="btn btn-default btn-lg special">get in touch</button>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-signal logo"></span>
+            </div>
+        </div>
+        
+    </div>
+<!-- unequal collums -->
+    <div class="container-fluid bg-grey">
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-globe logo"></span>
+            </div>
+            <div class="col-sm-8">
+                <h2>Our Values</h2>
+                <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>
+                <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
+            </div>
+        </div>
+
+    </div>
+<!-- icons -->
+    <div class="container-fluid text-center">
+        <h2>SERVICES</h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-off logo-small"></span>
+                <h4>POWER</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-heart logo-small"></span>
+                <h4>LOVE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-lock logo-small"></span>
+                <h4>JOB DONE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-leaf logo-small"></span>
+                <h4>GREEN</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-certificate logo-small"></span>
+                <h4>CERTIFIED</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4">
+                <span class="glyphicon glyphicon-wrench logo-small"></span>
+                <h4>HARD WORK</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+    </div>  
+<!--potfolio -->
+    <div class="container-fluid text-center bg-grey">
+        <h2>portfolio</h2>
+        <div class="row text center">
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Ilovehtml.jpg" alt="Ilovehtml">
+                    <p>blah blah</p>
+                    <button class="btn btn-lg">Sign Up</button>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Ilovehtml.jpg" alt="Ilovehtml">
+                    <p>blah blah</p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail">
+                    <img src="Ilovehtml.jpg" alt="Ilovehtml">
+                    <p>blah blah</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- carousel -->
+<h2 class="text-center">What our customers say</h2>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <h4>"This company is the best. I am so happy with the result!"<br><span style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
+        </div>
+        <div class="item">
+            <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
+         </div>
+        <div class="item">
+            <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler Bing, Actor, FriendsAlot</span></h4>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</body>
+</html>
